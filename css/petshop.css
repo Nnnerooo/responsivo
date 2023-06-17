@@ -1,0 +1,120 @@
+
+/*Arquivo de estilização do projeto Petshop*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url(../imgs/fundo-topo.jpg);
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    padding: 15px 0;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    background-image: url(../imgs/patinha-preta.png);
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-position: right;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: #6dd432;
+}
+
+#itemcontato{
+    background-image: none;
+    margin-right: 0;
+    padding-right: 0;
+}
+.fundoverde{
+    background-color: #bdff9c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container .col{
+    width: 430px;
+}
+.texto-centralizado{
+    text-align: center;
+}
+.produto{
+    width: 235px;
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin-right: 0 0 15px 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.produto figure img{
+    vertical-align: middle;
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#produto .flex-container{
+    margin-top: 43px;
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-image: url(../imgs/fundo-topo.jpg);
+}
+figure{
+    margin:0px 50% 0px 28% ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 45%;
+}
+.hov a:hover{
+    color: #6dd432;
+}
