@@ -49,34 +49,40 @@ nav a:hover{
     background-color: #bdff9c;
 }
 .container{
-    width: 900px;
+    width: 46.5%;
     margin: 0 auto;
     padding: 56px 0;
 }
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .flex-container .col{
-    width: 430px;
+    width: 100%;
+}
+.image{
+    max-width: 210%;
 }
 .texto-centralizado{
     text-align: center;
 }
 .produto{
     width: 235px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .produto figure{
     border: 1px solid #c4c4c4;
     background-color: #fff;
-    margin-right: 0 0 15px 0;
     text-align: center;
-    height: 160px;
+    width: 100%;
+    height: 65%;
     line-height: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
-.produto figure img{
-    vertical-align: middle;
-}
+
 .btn-pata{
     border: 1px solid #91e467;
     background-color: #d2fbbd;
@@ -89,6 +95,9 @@ nav a:hover{
 
 #produto .flex-container{
     margin-top: 43px;
+}
+.servico{
+    width: 46.5%
 }
 
 form{
@@ -120,7 +129,6 @@ figure{
     color: #6dd432;
 }
 @media screen and (max-width:580px) {
-
     .flex-container{
         text-align: center;
         flex-direction: column;
@@ -133,30 +141,56 @@ figure{
         height: 100%;
         padding: 2%;
     }
-    #produto .container{
-        width: 430px;
+    .image{
+        margin-top: 3%;
+        width: 80%;
+    }
+    .texto-centralizado{
+        width: 100%; 
+        text-align: center; 
+    }
+    h2{
+        margin: 2% 0 4% 0 ;
+    }
+    #produto .flex-container{
+        margin-top: 5%;
+    }
+    .produto{
+        width: 70%;
         text-align: center;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0;
+        margin: 0 0 4% 0;
     }
-    #produto .flex-container{
-    margin-top: 0;
+    .produto figure {
+        width: 80%;
     }
-    .flex-container .col{
+    .image2{
+        margin-top: 3%;
+        width: 70%;
+    }
+    #form{
+        width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: 2% 0;
     }
-    h2{
-        margin: 1% 0 4% 0 ;
+    #iframe{
+        width: 80%;
     }
-    .produto{
-        width: 100%;
+}
+
+@media screen and (max-width:350px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    figure{
-        justify-content: center;
-        width: 100%;
-        margin: 3% 0;
+    li{
+        margin: 2%;
+        font-size: large;
     }
 }
